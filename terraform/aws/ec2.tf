@@ -205,7 +205,7 @@ resource "aws_route_table" "web_rtb" {
     git_repo             = "terragoat"
     yor_trace            = "5e4fee6e-a6aa-4b61-a741-47c5efb463e1"
   })
-}
+}.
 
 resource "aws_route_table_association" "rtbassoc" {
   subnet_id      = aws_subnet.web_subnet.id
